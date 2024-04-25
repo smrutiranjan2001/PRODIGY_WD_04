@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+header p {
+  font-size: 20px;
+  margin: 0;
+}
+#about{
+  font-size:  18px;
+  
+}
+
+#about, #projects, #contact,#Education {
+  padding: 30px;
+}
+
+#about h2, #projects h2, #contact h2 ,#Education h2,h3,p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#projects li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+#contact form {
+  margin-top: 15px;
+}
+
+#contact label, #contact input, #contact textarea {
+  display: block;
+  
+}
+
+#contact input[type="submit"] {
+  margin-top: 10px;
+}
